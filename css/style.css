@@ -35,11 +35,34 @@ f)  As  <divs>  que  receberão  os  drones  devem  possuir a formatação:  cor
   padding: 20px;
 }
 /*
+g) Os elementos <h2> devem ter todas as margens em 0 e borda inferior com 1px de largura, tracejada(dashed) na cor verde oliva (#7E9F19).
 */
+.drone h2{
+  margin: 0px;
+  border-style: dashed;
+  border-width: 0px 0px 1px 0px;
+  border-color: #7E9F19;
+}
 /*
+h) Os  elementos  <a>  devem  estar  na  cor  azul  (#2C88A7),  com  peso  da  fonte  em  900  e  sem  o  sublinhado  do  texto. Lembre-se que eles devem ficar alinhados à direita da <div>.
 */
+.drone a{
+  color: #2C88A7;
+  font-weight: 900;
+  text-decoration: none;
+}
+.p1,.p2{
+  text-align: right;
+}
+
 /*
+i) O elemento <p> que possui o link do Twitter também deverá terborda inferior de 1px de largura, tracejado(dashed) na cor verde oliva (#7E9F19).
 */
+.p2{
+  border-style: dashed;
+  border-width: 0px 0px 1px 0px;
+  border-color: #7E9F19;
+}
 /*
 */
 /*
