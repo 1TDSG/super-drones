@@ -8,7 +8,7 @@ h1{
   color: #FFFFFF;
   font-size: 50px;
 }
-.container{
+#container{
   width: 1200px;
   margin: 0 auto 0 auto;
 }
@@ -28,11 +28,11 @@ a{
   color: #2C88A7;
   font-weight: 900;
   text-decoration: none;
-  text-align: right;
 }
-.twitter{
+.p1{
   border-bottom: 1px dashed;
   border-color:#7E9F19;
+    text-align: right;
 }
 a:hover{
   color: #DC143C;
