@@ -1,0 +1,68 @@
+body {
+  background-image: url(../img/fundo.jpg);
+  font-family: Calibri, Tahoma, Arial;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.caixa > h1:nth-child(1){
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+.conteudo {
+  background-color: white;
+  text-align: justify;
+  border: 1px solid #CCCCCC;
+  margin:30px;
+}
+
+.conteudo > h2 {
+  margin-left: 20px;
+  border-width: 1px;
+  border-bottom: 1px;
+  border-bottom-style: dashed;
+  border-color: #7E9F19;
+}
+
+.conteudo  {
+  width: 1200px;
+  align-content: center;
+  margin: 10px auto;
+}
+
+.infoDrone {
+  margin: 20px;
+  border-width: 1px;
+  border-bottom: 1px;
+  border-bottom-style: dashed;
+  border-color: #7E9F19;
+}
+
+.infoDrone > a {
+  color: #2C88A7;
+  font-weight: 900;
+  text-align: right;
+}
+
+.infoDrone > p:nth-child(4) {
+  border: 2px;
+  /*border-style: dashed;*/
+  border-color: #7E9F19;
+  text-align: right;
+}
+
+.infoDrone > img{
+  width: 120px;
+  height: 150px;
+  margin: 20px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #7E9F19;
+  float: left;
+  margin-top: 4px;
+}
+
+.infoDrone > p:nth-child(2) {
+  text-align: center;
+}
