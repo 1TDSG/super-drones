@@ -1,0 +1,52 @@
+body{
+    background-image: url("../img/fundo.jpg");
+    font-family:  Tahoma;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+div.conteudo{
+    width: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.drones{
+    background-color: white;
+    text-align: justify;
+    border-width: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+h2{
+    margin: 0px;
+    border-bottom:1px dashed #7E9F19 ;
+}
+a.link{
+    color: #2C88A7;
+    font-style: 900;
+    font-language-override: normal;
+}
+a.link:hover{
+    color: #DC143C;
+}
+img{
+    width: 120px;
+    height: 150px;
+    float: left;
+    border: solid  green ;
+    padding: 2px;
+    margin: 5px 10px 0px 0px;
+}
+
+p.amazon {
+    text-align: right;
+}
+p.twitter{
+    text-align: right;
+}
