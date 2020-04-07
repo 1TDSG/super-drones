@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*c) O <body> deve estar formatado com cor de fundo preta( #000000), família de fontes: Calibri, Tahoma ou Arial. Altura da linha em 22px e tamanho da fonte em 16px.Se você desejar, existe a imagem “fundo.jpg”localizada na pasta img. Substitua a cor de fundo da página pela respectiva imagem.*/
+body{
+  background-color: #000000;
+  background-image: url(../img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Tahoma','Calibre','Arial';
+  line-height: 22px;
+  font-size: 16px;
+}
+
+/*d) O <h1> deve ter cor branca(#FFFFFF) e tamanho da fonte em 50px*/
+h1{
+  color: #ffffff;
+  font-size: 50px;
+}
+
+/*
+e) A <div> que contém todo o conteúdo da página, item “c”da parte do HTML, deve ter a largura de 1200px. Para que esse elemento sempre fique centralizado no browser, determine que a margem superior e inferior seja 0px, direta e esquerda automática (auto).
+*/
+#container{
+  width: 1200px;
+  margin: 0px auto;
+}
+/*
+f)  As  <divs>  que  receberão  os  drones  devem  possuir a formatação:  cor  do  fundo  branca(#FFFFFF),  texto  com alinhamento justificado, borda de 1px de largura, no estilo sólido(solid) e na cor cinza claro(#CCCCCC). Deve ter margem inferior de 20px, e preenchimento em 20px.
+*/
+.drone{
+  background-color: #ffffff;
+  text-align: justify;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
