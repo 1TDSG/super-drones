@@ -64,8 +64,29 @@ i) O elemento <p> que possui o link do Twitter também deverá terborda inferior
   border-color: #7E9F19;
 }
 /*
+j) Quando passarmos os mouse sobre os elementos <a> a cor deles deverá muda para uma tonalidade rosa(#DC143C)
 */
+.drone a:HOVER{
+  color: #DC143C;
+}
+
 /*
+k)Os elementos <Img> devem ter largura de 120px, altura de 150px, devem possuir borda de 1px, solida(solid) na cor verde  oliva  (#7E9F19).  Deve  também  ter  margem  superior  e  direita  em  10px  e  inferior  e  esquerda  em  0.  O preenchimento deverá ser de 2px.Perceba que a imagem deve ficar ao lado esquerdo do texto, para isso foi usado a propriedade “float”com valor “left”. Logo veremos que existem outras formas, até melhores, de fazer isso.
 */
+.drone img{
+  width: 120px;
+  height: 150px;
+  border: 1px solid #7E9F19;
+  margin: 10px 10px 0px 0px;
+  padding: 2px;
+  float: left;
+}
+
 /*
+l) O  último  elemento  <div>  deve  possuir  fonte  em  12px,  texto  na  cor  branca(#FFFFFF)  e  alinhamento  do  texto centralizado.
 */
+#rodape{
+    font-size: 12px;
+    color:#ffffff;
+    text-align: center;
+}
