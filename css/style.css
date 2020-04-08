@@ -43,7 +43,8 @@ h2 {
 
 .site2 {
   border-bottom: 1px dashed #7E9F19;
-  text-align: right;
+
+
 
 
 
@@ -70,7 +71,7 @@ img {
 
 }
 
-a {
-  text-align: right;
 
+.direita {
+  text-align: right;
 }
