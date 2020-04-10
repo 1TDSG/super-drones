@@ -1,0 +1,64 @@
+body {
+  background-image: url(../img/fundo.jpg);
+}
+
+h1{
+color: #FFFFFF;
+font-size: 50px;
+}
+
+#container {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 22px;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.drone{
+  background-color: #FFFFFF;
+  text-align: justify;
+  border-style: 1px solid #CCCCCC;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2{
+  margin: 0px 0px 0px 0px;
+  border-bottom: 1px dashed #7E9F19;
+}
+
+a{
+  color: #2C88A7;
+  font-weight: 900;
+  text-align: right;
+  text-decoration: none;
+}
+
+
+.twitter{
+  border-bottom: 1px dashed #7E9F19;
+}
+
+a:hover{
+  background-color: #DC143C;
+}
+
+img{
+  width: 120px;
+  height: 150px;
+  border: 1px solid #7E9F19;
+  margin: 10px 10px 0px 0px;
+  padding: 2px;
+  float: left;
+}
+
+.exercicio{
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.direita{
+  text-align: right;
+}
